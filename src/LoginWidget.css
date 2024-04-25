@@ -1,0 +1,43 @@
+input {
+    display: block;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+.Form-container {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    /* background: #ec5990; */
+    /* color: white; */
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 100;
+  }
+
+  input {
+    cursor: pointer;
+  }
+  input[disabled] {
+    cursor: default;
+  }
+
+  input[enabled] {
+    color: black;
+  }
