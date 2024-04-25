@@ -8,7 +8,12 @@ input {
     padding: 10px;
     margin-bottom: 10px;
     font-size: 20px;
-  }
+    cursor: pointer;
+}
+
+input[disabled] {
+    cursor: default;
+}
 
 .Form-container {
     display: flex;
@@ -22,22 +27,8 @@ label {
 }
 
 input[type="submit"] {
-    /* background: #ec5990; */
-    /* color: white; */
     border: none;
     margin-top: 20px;
     padding: 10px;
     font-size:20px;
-    font-weight: 100;
-  }
-
-  input {
-    cursor: pointer;
-  }
-  input[disabled] {
-    cursor: default;
-  }
-
-  input[enabled] {
-    color: black;
-  }
+}

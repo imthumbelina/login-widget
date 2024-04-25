@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
 import LoginWidget from './LoginWidget';
+
+import './App.css';
 
 function App() {
   return (
